@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AFB840691A5AE68D00DFF4CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB840681A5AE68D00DFF4CA /* AppDelegate.swift */; };
-		AFB8406B1A5AE68D00DFF4CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8406A1A5AE68D00DFF4CA /* ViewController.swift */; };
 		AFB8406E1A5AE68E00DFF4CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB8406C1A5AE68E00DFF4CA /* Main.storyboard */; };
 		AFB840701A5AE68E00DFF4CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB8406F1A5AE68E00DFF4CA /* Images.xcassets */; };
 		AFB840731A5AE68E00DFF4CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB840711A5AE68E00DFF4CA /* LaunchScreen.xib */; };
 		AFB8407F1A5AE68E00DFF4CA /* City_navigation_barTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8407E1A5AE68E00DFF4CA /* City_navigation_barTests.swift */; };
+		AFB840891A5AE6FA00DFF4CA /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB840881A5AE6FA00DFF4CA /* MapController.swift */; };
+		AFB8408B1A5AE76100DFF4CA /* NewYorkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8408A1A5AE76100DFF4CA /* NewYorkController.swift */; };
+		AFB8408D1A5AE7BB00DFF4CA /* ParisController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8408C1A5AE7BB00DFF4CA /* ParisController.swift */; };
+		AFB8408F1A5AE7D200DFF4CA /* MoscowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB8408E1A5AE7D200DFF4CA /* MoscowController.swift */; };
+		AFB840911A5AE7F900DFF4CA /* NewYork.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB840901A5AE7F900DFF4CA /* NewYork.swift */; };
+		AFB840931A5AE81000DFF4CA /* Paris.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB840921A5AE81000DFF4CA /* Paris.swift */; };
+		AFB840951A5AE82100DFF4CA /* Moscow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB840941A5AE82100DFF4CA /* Moscow.swift */; };
+		AFB840971A5B11EA00DFF4CA /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB840961A5B11E900DFF4CA /* ModalViewController.swift */; };
+		AFB840991A5B12B500DFF4CA /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB840981A5B12B500DFF4CA /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +37,21 @@
 		AFB840631A5AE68D00DFF4CA /* City navigation bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City navigation bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB840671A5AE68D00DFF4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFB840681A5AE68D00DFF4CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFB8406A1A5AE68D00DFF4CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AFB8406D1A5AE68E00DFF4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFB8406F1A5AE68E00DFF4CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AFB840721A5AE68E00DFF4CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AFB840781A5AE68E00DFF4CA /* City navigation barTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "City navigation barTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB8407D1A5AE68E00DFF4CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFB8407E1A5AE68E00DFF4CA /* City_navigation_barTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_navigation_barTests.swift; sourceTree = "<group>"; };
+		AFB840881A5AE6FA00DFF4CA /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+		AFB8408A1A5AE76100DFF4CA /* NewYorkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewYorkController.swift; sourceTree = "<group>"; };
+		AFB8408C1A5AE7BB00DFF4CA /* ParisController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParisController.swift; sourceTree = "<group>"; };
+		AFB8408E1A5AE7D200DFF4CA /* MoscowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoscowController.swift; sourceTree = "<group>"; };
+		AFB840901A5AE7F900DFF4CA /* NewYork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewYork.swift; sourceTree = "<group>"; };
+		AFB840921A5AE81000DFF4CA /* Paris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paris.swift; sourceTree = "<group>"; };
+		AFB840941A5AE82100DFF4CA /* Moscow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moscow.swift; sourceTree = "<group>"; };
+		AFB840961A5B11E900DFF4CA /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		AFB840981A5B12B500DFF4CA /* ModalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +94,15 @@
 			isa = PBXGroup;
 			children = (
 				AFB840681A5AE68D00DFF4CA /* AppDelegate.swift */,
-				AFB8406A1A5AE68D00DFF4CA /* ViewController.swift */,
+				AFB840881A5AE6FA00DFF4CA /* MapController.swift */,
+				AFB8408A1A5AE76100DFF4CA /* NewYorkController.swift */,
+				AFB840901A5AE7F900DFF4CA /* NewYork.swift */,
+				AFB8408C1A5AE7BB00DFF4CA /* ParisController.swift */,
+				AFB840921A5AE81000DFF4CA /* Paris.swift */,
+				AFB8408E1A5AE7D200DFF4CA /* MoscowController.swift */,
+				AFB840941A5AE82100DFF4CA /* Moscow.swift */,
+				AFB840961A5B11E900DFF4CA /* ModalViewController.swift */,
+				AFB840981A5B12B500DFF4CA /* ModalView.swift */,
 				AFB8406C1A5AE68E00DFF4CA /* Main.storyboard */,
 				AFB8406F1A5AE68E00DFF4CA /* Images.xcassets */,
 				AFB840711A5AE68E00DFF4CA /* LaunchScreen.xib */,
@@ -212,8 +236,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFB8406B1A5AE68D00DFF4CA /* ViewController.swift in Sources */,
+				AFB840891A5AE6FA00DFF4CA /* MapController.swift in Sources */,
+				AFB8408B1A5AE76100DFF4CA /* NewYorkController.swift in Sources */,
+				AFB8408F1A5AE7D200DFF4CA /* MoscowController.swift in Sources */,
+				AFB840911A5AE7F900DFF4CA /* NewYork.swift in Sources */,
+				AFB840991A5B12B500DFF4CA /* ModalView.swift in Sources */,
 				AFB840691A5AE68D00DFF4CA /* AppDelegate.swift in Sources */,
+				AFB840931A5AE81000DFF4CA /* Paris.swift in Sources */,
+				AFB8408D1A5AE7BB00DFF4CA /* ParisController.swift in Sources */,
+				AFB840971A5B11EA00DFF4CA /* ModalViewController.swift in Sources */,
+				AFB840951A5AE82100DFF4CA /* Moscow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +437,7 @@
 				AFB840841A5AE68E00DFF4CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFB840851A5AE68E00DFF4CA /* Build configuration list for PBXNativeTarget "City navigation barTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				AFB840871A5AE68E00DFF4CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
